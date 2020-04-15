@@ -92,9 +92,9 @@ html,body {
 }
 
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 413px) {
   .center-content {
-    padding: 185px 0 0 0;
+    padding: 158px 0 0 0;
     color: #99702c;
     text-align: center;
     height: 398px;
@@ -105,6 +105,13 @@ html,body {
   /* box-shadow: 10px -10px 17px #f7be06; */
   background: linear-gradient(to right, rgba(153, 112, 44, 100), rgba(153, 112, 44, 100));
   transform: translateX(-275px) rotate(45deg);
+}
+.bottom-left-line {
+  height: 6px;
+  width: 706px;
+  /* box-shadow: 10px 10px 17px #f7be06; */
+  background: linear-gradient(to right, rgba(153, 112, 44, 100), rgba(153, 112, 44, 100));
+  transform: translateX(-143px) rotate(45deg);
 }
 }
 
