@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0%;
 }
+body {
+  font-family: 'Baloo Paaji 2', cursive;  
+}
 .main{
   background-color: #eeeeee;
 }
@@ -29,13 +32,14 @@
 
   .center-content {
     padding: 55px 0 0 0;
-    color: #edd52c;
+    color: #99702c;
     text-align: center;
     height: 385px;
   }
 
   .center-content a {
-    color: #edd52c;
+    color: #99702c;
+    text-decoration: none;
   }
 
   .center-content h1 {
