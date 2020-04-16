@@ -1,150 +1,153 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Noto Sans', sans-serif;
-    overflow: hidden;
-  }
-  body {
-    font-family: 'Nunito', sans-serif;
-  }
-  .main{
-    background-color:gray;
-   
-  }
-  .container{
-    max-width: 540px;
-    margin: 0 auto;
-    background-color: burlywood;
-    position: relative;
-   
-  }
-  .top{
-    background:#191919;
-    height: 290px;
-    color: #e7e9ec;
-    font-weight:300;
-    text-align: center;
-  }
-  .top p{
-    padding: 45px 0;
-    font-size: 30px;
-  }
-
-  .user-name {
-    padding: 55px 0 0 0;
-    text-transform: uppercase;
-  }
-
-  .user-name h1 {
-    font-size: 32px;
-    padding-bottom: 10px;
-  }
-
-  .user-name h2 {
-    font-size: 20px;
-  }
-
-  .user-name span {
-    color: #1c9772;
-  }
-  
-.social-link {
-  width: 30px;
-  height: 30px;
-  background: #191919;
-  border-radius: 50%;
-  display: inline-block;
-  color: #1c9772;
-  font-size: 14px;
-  text-align: center;
-   margin-right: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  overflow: hidden;
 }
-  .bottom{
-    padding: 0px 30px  0 30px;
-    background: #fff;
-    /* color: #242e37;
-    text-align: center; */
-    height: 385px;
-    /* position: relative; */
-  }
-  .descrption {
-    padding-top: 50px;
-    background-color: #e9e9e9;
-    height: 385px;
-  }
-  .bottom h1{
-    font-size: 23px;
-    font-weight: bold;
-    line-height: 20px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-  }
-  .bottom p{
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.main{
+  background-color:gray;
   
+}
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+  background-color: burlywood;
+  position: relative;
   
-  }
-  .display{
-    display: flex;
-    flex-direction: row;
-    /* padding: 0 10px; */
-    padding-bottom: 5px;
-  }
-  .detail{
-   margin: 0 auto; 
-   max-width: 275px;
-   font-size: 18px;
-  }
-  
-  .icon{
-    padding: 10px;
-  }
-  .data{
-    padding: 10px;
-  }
-  
-  .triangle {
-    width: 0;
-    height: 0;
-    border-left: 259px solid transparent;
-    border-right: 282px solid transparent;
-    border-top: 50px solid #29d9ad;
-    }
-    .inner-triangle {
-      width: 0;
-      height: 0;
-      border-left: 259px solid transparent;
-      border-right: 282px solid transparent;
-      border-top: 50px solid #248c75;
-      }
+}
+.top {
+  background:#191919;
+  height: 290px;
+  color: #e7e9ec;
+  font-weight:300;
+  text-align: center;
+}
+.top p {
+  padding: 45px 0;
+  font-size: 30px;
+}
+
+.user-name {
+  padding: 55px 0 0 0;
+  text-transform: uppercase;
+}
+
+.user-name h1 {
+  font-size: 32px;
+  padding-bottom: 10px;
+}
+
+.user-name h2 {
+  font-size: 20px;
+}
+
+.user-name span {
+  color: #1c9772;
+}
+
+.social-link {
+width: 30px;
+height: 30px;
+background: #191919;
+border-radius: 50%;
+display: inline-block;
+color: #1c9772;
+font-size: 14px;
+text-align: center;
+  margin-right: 10px;
+}
+.bottom{
+  padding: 0px 30px  0 30px;
+  background: #fff;
+  /* color: #242e37;
+  text-align: center; */
+  height: 385px;
+  /* position: relative; */
+}
+.descrption {
+  padding-top: 50px;
+  background-color: #e9e9e9;
+  height: 385px;
+}
+.bottom h1{
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.bottom p{
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 
 
-@media screen and (max-width: 765px) {
-  .triangle {
-    height: 200px;
-    width: 200px;
-    background: #29d9ad;
-    position: absolute;
-    left: calc(21% - 14px);
-    clip-path: polygon(0% 0%,100% 100%,43% 59%);
-    transform: rotate(-45deg);
-    top: 190px;
+}
+.display{
+  display: flex;
+  flex-direction: row;
+  /* padding: 0 10px; */
+  padding-bottom: 5px;
+}
+.detail{
+  margin: 0 auto; 
+  max-width: 275px;
+  font-size: 18px;
+}
+
+.icon{
+  padding: 10px;
+}
+.data{
+  padding: 10px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 259px solid transparent;
+  border-right: 282px solid transparent;
+  border-top: 50px solid #29d9ad;
 }
 .inner-triangle {
-  height: 190px;
-  width: 190px;
-  background: #248c75;
-  position: absolute;
-  left: calc(10% - 72px);
-  clip-path: polygon(0% 0%,100% 100%,43% 59%);
-  transform: rotate(0deg);   
-  top: 0px;
-  }
-
-
-
+  width: 0;
+  height: 0;
+  border-left: 259px solid transparent;
+  border-right: 282px solid transparent;
+  border-top: 50px solid #248c75;
 }
+
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 233px solid transparent;
+  border-right: 245px solid transparent;
+  border-top: 38px solid #29d9ad;
+  position: absolute;
+  top: 309px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+#triangle-inner {
+  width: 0;
+  height: 0;
+  border-left: 233px solid transparent;
+  border-right: 245px solid transparent;
+  border-top: 18px solid #248c75;
+  position: absolute;
+  top: 298px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
   
