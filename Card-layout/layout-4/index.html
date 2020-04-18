@@ -11,21 +11,12 @@
 		<div class="main">
 			<div class="container">
 				<div class="top">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
+					<div id="wrapper">
+						<!-- <div class="verticle-line"></div> -->
+					</div>
+					<div id="wrapper2">
+						<!-- <div class="verticle-line"></div> -->
+					</div>
 				</div>
 	
 
@@ -76,6 +67,18 @@
 				<div class="bottom"></div>
 			</div>
 		</div>
+		<script>
+			for(x=0; x<30;x++) {
+    var vertical = document.createElement('div');
+    vertical.className = "verticle-line";
+		document.getElementById('wrapper').appendChild(vertical);
+			}
+		for(x=0; x<30;x++) {
+    var vertical = document.createElement('div');
+    vertical.className = "verticle-line2";
+    document.getElementById('wrapper2').appendChild(vertical);
+}
+		</script>
 	</body>
 </body>
 </html>
