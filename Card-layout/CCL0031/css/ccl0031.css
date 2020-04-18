@@ -1,0 +1,98 @@
+html, body {
+  font-family: 'Poppins', sans-serif;
+  color: #fefefe;
+  font-size: 14px;
+}
+img {
+  max-width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+}
+
+.company-info-wrap {
+  background: #fefefe;
+  height: 200px;
+  position: relative;
+}
+.company-info {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-image {
+  height: 75px;
+  display: block;
+  margin: 0 auto;
+}
+.tagline {
+  color: #2f2f2f;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.person-info {
+  background-color: #2f2f2f;
+  padding: 25px 15px;
+  position: relative;
+}
+
+.person-name {
+  font-size: 24px;
+}
+.person-position {
+  font-size: 18px;
+}
+.icon img {
+  max-width: 20px;
+}
+.person-main-info {
+  margin-bottom: 30px;
+  position: relative;
+  left: 25%;
+  width: 75%;
+}
+
+.person-contact-info {
+  margin-bottom: 30px;
+  position: relative;
+  left: 12.5%;
+  width: 87.5%;
+  z-index: 10;
+}
+.person-contact-info div {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.person-contact-info div span:nth-child(1) {
+  width: 15%;
+  position: relative;
+}
+.person-contact-info div span:nth-child(2) {
+  width: 85%;
+}
+
+.person-contact-info div span:nth-child(1) img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.red-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f4383f;
+  z-index: 1;
+  width: 25%;
+  height: 100%;
+  
+}
